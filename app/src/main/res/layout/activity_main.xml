@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#caf2e5"
+    android:padding="16dp"
     tools:context="net.swallowsnest.lilknowitall.MainActivity">
 
 
@@ -20,7 +21,7 @@
         android:layout_height="wrap_content"
         android:text="Monrovia, CA"
         android:id="@+id/location"
-        android:textSize="30dp"
+        android:textSize="30sp"
         android:fontFamily="cursive"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
@@ -33,7 +34,7 @@
         android:layout_above="@id/location"
         android:layout_centerHorizontal="true"
         android:fontFamily="sans-serif-light"
-        android:textSize="25dp"
+        android:textSize="25sp"
         />
 
     <TextView
@@ -43,7 +44,7 @@
         android:text="Lil' Know It All ~ Know what's in your products"
         android:fontFamily="cursive"
         android:layout_centerHorizontal="true"
-        android:textSize="20dp"
+        android:textSize="20sp"
        />
 
     <TextView
@@ -52,9 +53,5 @@
         android:layout_below="@id/name"
         android:fontFamily="sans-serif-light"
         android:text="Lil' Know It All creates all natural bath and body products with ingredients mother nature provided. Soaps are all made with vegetable oils not tallow (animal fat). No parabens, No SLS, No preservatives."/>
-
-
-
-
 
 </RelativeLayout>
