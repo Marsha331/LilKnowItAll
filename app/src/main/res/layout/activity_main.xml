@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#caf2e5"
+    tools:context="net.swallowsnest.lilknowitall.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monrovia, CA"
+        android:id="@+id/location"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please visit our website at www.lilknowitall.com or call us at 818-653-3281"
+        android:layout_above="@id/location"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Lil' Know It All ~ Know what's in your products"
+        android:fontFamily="cursive"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:fontFamily="sans-serif-light"
+        android:text="Lil' Know It All creates all natural bath and body products with ingredients mother nature provided. Soaps are all made with vegetable oils not tallow (animal fat). No parabens, No SLS, No preservatives."/>
+
+
+
+
+
+</RelativeLayout>
